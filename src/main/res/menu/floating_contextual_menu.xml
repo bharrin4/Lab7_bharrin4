@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/women"
+        android:orderInCategory="100"
+        android:title="Women's Basketball"
+        android:titleCondensed="Women's"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/men"
+        android:orderInCategory="100"
+        android:title="Men's Basketball"
+        android:titleCondensed="Men's"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/on_campus"
+        android:orderInCategory="100"
+        android:title="On Campus Event"
+        android:titleCondensed="On Campus"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/off_campus"
+        android:orderInCategory="100"
+        android:title="Off Campus Event"
+        android:titleCondensed="Off Campus"
+        app:showAsAction="always"/>
+
+</menu>

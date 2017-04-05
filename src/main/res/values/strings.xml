@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab2_bharrin4</string>
+    <string name="header_name">CSE40333</string>
+    <string name="notre_dame">Notre Dame IN</string>
+    <string name="basketball">Basketball 2017</string>
+    <string name="main_string">Hello and welcome to CSE40333!</string>
+    <string name="team_name">Team Name</string>
+    <string name="game_date">Game Date</string>
+
+</resources>

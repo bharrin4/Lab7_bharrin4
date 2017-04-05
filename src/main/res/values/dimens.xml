@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="irish_width">150dp</dimen>
+    <dimen name="irish_height">150dp</dimen>
+    <dimen name="lep_margin">20dp</dimen>
+    <dimen name="schedule_margin">40dp</dimen>
+    <dimen name="schedule_text">22sp</dimen>
+    <dimen name="basketball_margin_top">40dp</dimen>
+    <dimen name="notre_dame_size">30dp</dimen>
+
+    <dimen name="logo_size">100dp</dimen>
+    <dimen name="score_item_width">77dp</dimen>
+    <dimen name="score_height">100dp</dimen>
+    <dimen name="logo_margin">5dp</dimen>
+    <dimen name="detail_logo">63dp</dimen>
+    <dimen name="stats_width">105dp</dimen>
+    <dimen name="team_name_text">18sp</dimen>
+    <dimen name="final_score">47dp</dimen>
+    <dimen name="button_margin">25dp</dimen>
+
+    <dimen name="fab_button_margin_bottom">16dp</dimen>
+    <dimen name="fab_button_margin_right">16dp</dimen>
+
+
+</resources>

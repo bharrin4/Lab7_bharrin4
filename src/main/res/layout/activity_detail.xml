@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorlayout">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+
+
+        <TextView
+            android:text="Saturday, February 11, 6:00pm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameTime" />
+
+        <TextView
+            android:text="Purcell Pavilion at the Joyce Center, Notre Dame, Indiana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameLocation" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/score_height"
+            android:layout_marginTop="@dimen/lep_margin"
+            android:id="@+id/scoreLayout">
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fsu_sports_logo"
+                android:id="@+id/opposingLogo"
+                android:layout_marginRight="@dimen/logo_margin"
+                android:layout_width="@dimen/detail_logo" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/stats_width"
+                android:layout_height="match_parent"
+                android:id="@+id/opposingStats">
+
+                <TextView
+                    android:text="Florida State"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:id="@+id/opposingName" />
+
+                <TextView
+                    android:text="Seminoles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:id="@+id/opposingMascot"/>
+
+                <TextView
+                    android:text="(21-5)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:id="@+id/opposingRec" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/final_score"
+                android:layout_height="match_parent"
+                android:id="@+id/scoreLinear">
+
+                <TextView
+                    android:text="72-84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:id="@+id/scoreID" />
+                <TextView
+                    android:text="final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/finalString" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/stats_width"
+                android:layout_height="match_parent"
+                android:id="@+id/ndStats">
+
+                <TextView
+                    android:text="Notre Dame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:id="@+id/ndName" />
+
+                <TextView
+                    android:text="Fighting Irish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:id="@+id/ndMascot"
+                    android:textSize="@dimen/team_name_text" />
+
+                <TextView
+                    android:text="(19-7)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:id="@+id/ndRec" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="@dimen/detail_logo"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lep"
+                android:id="@+id/ndLogo"
+                android:layout_marginLeft="@dimen/logo_margin"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/button_margin"
+                android:layout_marginTop="@dimen/logo_size"
+                android:id="@+id/cameraButton" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/acc"
+                android:layout_marginEnd="31dp"
+                android:id="@+id/photo_taken"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/cameraButton"
+                android:layout_marginTop="28dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

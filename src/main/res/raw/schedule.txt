@@ -1,0 +1,8 @@
+Saturday, February 11, 6:00pm;Purcell Pavilion at the Joyce Center, Notre Dame, Indiana;fsu_sports_logo;Seminoles;Florida State;(21-5);72-84;Final;Notre Dame;Fighting Irish;(21-7);nd_logo;Feb 11
+Tuesday, February 14, 7:00pm;Silvio O. Conte Forum, Chestnut Hill, Massachusetts;bc_logo;Eagles;Boston College;(9-18);76-84;Final;Notre Dame;Fighting Irish;(21-7);nd_logo;Feb 14
+Saturday, February 18, 12:00pm;PNC Area, Raleigh, North Carolina;nc_state;Wolfpack;North Carolina State;(14-14);72-81;Final;Notre Dame;Fighting Irish;(21-7);nd_logo;Feb 18
+Sunday, February 26, 6:30pm;Purcell Pavilion at the Joyce Center, Notre Dame, Indiana;gtech_logo;Yellow Jackets;Georgia Tech;(15-11);@;Final;Notre Dame;Fighting Irish;(21-7);nd_logo;Feb 26
+Wednesday, March 1, 8:00pm;Purcell Pavilion at the Joyce Center, Notre Dame, Indiana;bc_logo;Eagles;Boston College;(9-18);@;Final;Notre Dame;Fighting Irish;(21-7);nd_logo;March 1
+Saturday, March 4, 2:00pm;KFC Yum! Center, Louisville, Kentucky;louisville;Cardinals;Louisville;(22-5);@;Final;Notre Dame;Fighting Irish;(21-7);nd_logo;March 4
+Tuesday, March 7, 12:00pm;Barclay's Center, New York, New York;acc;N/A;ACC Tournament;N/A;@;Final;Notre Dame;Fighting Irish;(21-7);nd_logo;March 7
+Thursday, March 16;N/A;ncaa;N/A;NCAA Tournament;N/A;@;Final;Notre Dame;Fighting Irish;(21-7);nd_logo;March 16

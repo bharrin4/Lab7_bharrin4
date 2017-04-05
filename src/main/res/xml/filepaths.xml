@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <paths>
+        <external-path path="Android/data/com.a40333.bharrin4.lab2_bharrin4/files/Pictures" name="my_images" />
+    </paths>
+</PreferenceScreen>
